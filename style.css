@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  background: whitesmoke;
+  height: 50%;
+  width:50%;
+  
+  margin: auto;
+}
+.heading{
+      text-align: center;
+}
+#counter_Text{
+    font-size: 5.4rem;
+    color: deeppink;
+    text-align: center;
+    margin: 6px;
+}
+.btn{
+    padding: 9px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+  border: 2px solid blue;
+}
